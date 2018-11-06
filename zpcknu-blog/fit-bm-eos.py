@@ -58,7 +58,7 @@ def plot_eos(volumes_, energies_):
     plt.xlabel("Volume (ang^3)")
     # I take the last value in the list of units assuming units do not change
     plt.ylabel("Energy (eV)")
-    plt.show()
+    plt.savefig("fit-bm.png")
 
 
 # In[4]:
